@@ -1,4 +1,4 @@
-package com.example.e_commerce_proj_1.service;
+package com.example.e_commerce_proj_1.service.Impl;
 
 import com.example.e_commerce_proj_1.dto.CommonResponse;
 import com.example.e_commerce_proj_1.model.Product;
@@ -9,12 +9,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
 @Service
-public class ProductService {
+public class ProductServiceImpl {
 
     @Autowired
     private ProductRepository productRepository;
